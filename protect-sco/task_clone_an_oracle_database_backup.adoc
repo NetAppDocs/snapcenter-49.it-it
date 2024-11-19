@@ -201,7 +201,7 @@ SnapCenter consente di utilizzare le variabili di ambiente predefinite quando si
 
 .. Nella sezione Database Parameter Settings (Impostazioni dei parametri del database), modificare i valori dei parametri del database prepopolati utilizzati per inizializzare il database.
 +
-È possibile aggiungere altri parametri facendo clic su *image:../media/add_policy_from_resourcegroup.gif[""]*.
+È possibile aggiungere ulteriori parametri facendo clic su image:../media/add_policy_from_resourcegroup.gif["aggiungi criterio dal gruppo di risorse"].
 
 +
 Se si utilizza Oracle Standard Edition e il database è in esecuzione in modalità Archive log o si desidera ripristinare un database dal log di ripristino dell'archivio, aggiungere i parametri e specificare il percorso.

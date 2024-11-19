@@ -107,7 +107,7 @@ Selezionare *Delete archive logs from the destinations welling are of backup*.
 
 |===
 +
-image:../media/sco_backuppolicy_prunning.gif[""]
+image:../media/sco_backuppolicy_prunning.gif["eliminazione dei criteri di backup"]
 
 
 

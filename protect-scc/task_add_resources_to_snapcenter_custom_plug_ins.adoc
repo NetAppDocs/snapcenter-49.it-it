@@ -19,9 +19,6 @@ summary: 'È necessario aggiungere le risorse di cui si desidera eseguire il bac
 * I plug-in devono essere stati caricati sul server SnapCenter.
 
 
-.A proposito di questa attività
-È inoltre possibile aggiungere risorse per applicazioni MySQL e DB2. Questi plug-in possono essere scaricati da https://automationstore.netapp.com/home.shtml["Storage Automation Store di NetApp"].
-
 .Fasi
 . Nel riquadro di spostamento di sinistra, selezionare *risorse*, quindi selezionare il plug-in appropriato dall'elenco.
 . Nella pagina risorse, selezionare *Aggiungi risorsa*.

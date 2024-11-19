@@ -52,10 +52,7 @@ SnapCenter include le seguenti funzionalità principali:
 La protezione dei dati è supportata per i database Microsoft Exchange Server, Microsoft SQL Server, Oracle su Linux o AIX, il database SAP HANA e i file system host Windows in esecuzione sui sistemi ONTAP.
 
 +
-La protezione dei dati è supportata anche per altre applicazioni e database standard o personalizzati fornendo un framework per creare plug-in SnapCenter definiti dall'utente. Ciò consente la protezione dei dati per altre applicazioni e database dallo stesso singolo pannello di controllo. Sfruttando questo framework, NetApp ha rilasciato plug-in personalizzati SnapCenter per IBM DB2, MongoDB, MySQL e così via sul NetApp Automation Store.
-
-+
-https://automationstore.netapp.com/home.shtml["Storage Automation Store di NetApp"^]
+La protezione dei dati è supportata anche per altre applicazioni e database standard o personalizzati fornendo un framework per creare plug-in SnapCenter definiti dall'utente. Ciò consente la protezione dei dati per altre applicazioni e database dallo stesso singolo pannello di controllo. Sfruttando questo framework, NetApp ha rilasciato plug-in personalizzati SnapCenter per IBM DB2, MongoDB, MySQL e così via.
 
 * Backup basati su policy
 +
@@ -85,7 +82,7 @@ SnapCenter include API REST per la maggior parte delle funzionalità per l'integ
 Per ulteriori informazioni sulle API REST, vedere https://docs.netapp.com/us-en/snapcenter/sc-automation/overview_rest_apis.html["Panoramica delle API REST"].
 
 +
-Per ulteriori informazioni sui cmdlet di Windows, vedere https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205["Guida di riferimento al cmdlet del software SnapCenter"^].
+Per ulteriori informazioni sui cmdlet di Windows, vedere https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html["Guida di riferimento per cmdlet"^].
 
 +
 Per ulteriori informazioni sui comandi UNIX, vedere https://library.netapp.com/ecm/ecm_download_file/ECMLP2886206["Guida di riferimento al comando software SnapCenter"^].
@@ -118,7 +115,7 @@ La piattaforma SnapCenter è basata su un'architettura a più livelli che includ
 
 SnapCenter supporta data center multisito. Il server SnapCenter e l'host plug-in possono trovarsi in diverse posizioni geografiche.
 
-image::../media/snapcenter_architecture.gif[architettura SnapCenter]
+image::../media/snapcenter_architecture.gif[Architettura di SnapCenter]
 
 
 
@@ -158,7 +155,7 @@ NOTE: Il plug-in SnapCenter per UNIX non è un plug-in standalone e non può ess
 
 * Plug-in personalizzati di SnapCenter
 +
-I plug-in personalizzati sono supportati dalla community e possono essere scaricati da https://automationstore.netapp.com/home.shtml["Storage Automation Store di NetApp"^].
+I plug-in personalizzati sono supportati dalla community.
 
 
 
@@ -266,7 +263,6 @@ Linux o Windows
  a| 
 Plug-in personalizzati
  a| 
-https://automationstore.netapp.com/home.shtml["Storage Automation Store di NetApp"^]
  a| 
 Per i backup del file system, plug-in per Windows
  a| 
@@ -348,8 +344,6 @@ Sono supportati i dispositivi nativi SAN, i file system e i layout LVM costruiti
 * Supporta la creazione di copie mirror dei set di backup su un altro volume ed esecuzione della replica del backup disk-to-disk.
 * Supporta ambienti Windows e Linux. Negli ambienti Windows, le applicazioni personalizzate tramite plug-in personalizzati possono utilizzare il plug-in SnapCenter per Microsoft Windows per eseguire backup coerenti del file system.
 
-
-Gli esempi di plug-in personalizzati MySQL, DB2 e MongoDB per il software SnapCenter possono essere scaricati da https://automationstore.netapp.com/home.shtml["Storage Automation Store di NetApp"^].
 
 
 NOTE: I plug-in personalizzati MySQL, DB2 e MongoDB sono supportati solo dalle community NetApp.

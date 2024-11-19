@@ -26,14 +26,13 @@ link:task_back_up_resource_groups_sap_hana.html["Eseguire il backup dei gruppi d
 
 * Se si desidera creare un backup basato su file quando uno o più database tenant sono inattivi, impostare IL parametro ALLOW_FILE_BASED_BACKUP_IFINATTIVO_TENANTS_PRESENT su *YES* nel file di proprietà HANA utilizzando `Set-SmConfigSettings` cmdlet.
 +
-Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo Get-Help _command_name_. In alternativa, fare riferimento alla https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205["Guida di riferimento al cmdlet del software SnapCenter"]
+Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo Get-Help _command_name_. In alternativa, fare riferimento anche alla https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html["Guida di riferimento per cmdlet"^]
 
 * Per i comandi pre e post per le operazioni quiesce, Snapshot copy e unquiesce, controllare se i comandi esistono nell'elenco dei comandi disponibile sull'host plug-in dai seguenti percorsi:
 +
-Per Windows: _C: File di programma NetApp, SnapCenter, Snapcenter Plug-in Creator, ecc., allowed_comands_list.txt_
+** Per Windows: _C:\Program Files\NetApp\SnapCenter\Snapcenter Plug-in Creator\etc\allowed_Commands.config_
+** Linux: _/var/opt/SnapCenter/scc/allowed_commands.config
 
-+
-Per Linux: _/var/opt/snapcenter/scc/allowed_comands_list.txt_
 
 
 
@@ -44,7 +43,7 @@ NOTE: Se i comandi non sono presenti nell'elenco dei comandi, l'operazione avrà
 . Nel riquadro di spostamento di sinistra, selezionare *risorse*, quindi selezionare il plug-in appropriato dall'elenco.
 . Nella pagina Resource, filtrare le risorse dall'elenco a discesa *View* in base al tipo di risorsa.
 +
-Selezionare *image:../media/filter_icon.png[""]*, quindi selezionare il nome host e il tipo di risorsa per filtrare le risorse. Quindi selezionare image:../media/filter_icon.png[""] per chiudere il riquadro del filtro.
+Selezionare image:../media/filter_icon.gif["icona del filtro"], quindi selezionare il nome host e il tipo di risorsa per filtrare le risorse. È quindi possibile scegliere image:../media/filter_icon.gif["icona del filtro"] di chiudere il riquadro del filtro.
 
 . Selezionare la risorsa di cui si desidera eseguire il backup.
 . Nella pagina Resource, selezionare *Use customed name format for Snapshot copy* (Usa formato nome personalizzato per la copia Snapshot), quindi immettere un formato nome personalizzato da utilizzare per il nome della copia Snapshot.
@@ -107,7 +106,7 @@ Selezionare *Altro*, quindi immettere il comando per creare una copia Snapshot.
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["impostazioni dell'applicazione"]
 
 
 
@@ -116,12 +115,12 @@ image:../media/application_settings.gif[""]
 .. Selezionare uno o più criteri dall'elenco a discesa.
 +
 
-NOTE: Puoi anche creare una policy facendo clic su *image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: È inoltre possibile creare un criterio facendo clic su image:../media/add_policy_from_resourcegroup.gif["aggiungi criterio dal gruppo di risorse"].
 
 +
 Nella sezione Configure schedules for selected policies (Configura pianificazioni per policy selezionate), vengono elencati i criteri selezionati.
 
-.. Selezionare *image:../media/add_policy_from_resourcegroup.gif[""]* Nella colonna Configure Schedules (Configura pianificazioni) per il criterio per il quale si desidera configurare una pianificazione.
+.. Selezionare image:../media/add_policy_from_resourcegroup.gif["aggiungi criterio dal gruppo di risorse"] nella colonna Configura pianificazioni il criterio per il quale si desidera configurare una pianificazione.
 .. Nella finestra di dialogo Add schedules for policy _policy_name_, configurare la pianificazione, quindi selezionare *OK*.
 +
 _policy_name_ è il nome del criterio selezionato.

@@ -20,7 +20,7 @@ Collegare uno o più criteri al gruppo di risorse per definire il tipo di lavoro
 
 L'immagine seguente illustra la relazione tra risorse, gruppi di risorse e criteri per i database:
 
-image::../media/sco_resourcegroup_policy.gif[policy del resourcegroup sco]
+image::../media/sco_resourcegroup_policy.gif[criterio gruppo di risorse]
 
 .Fasi
 . Nel riquadro di navigazione a sinistra, selezionare *risorse* e il plug-in appropriato dall'elenco.

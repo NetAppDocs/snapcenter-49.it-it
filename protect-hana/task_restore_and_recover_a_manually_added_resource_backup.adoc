@@ -18,14 +18,13 @@ summary: È possibile utilizzare SnapCenter per ripristinare e ripristinare i da
 * È necessario annullare qualsiasi operazione di backup attualmente in corso per la risorsa o il gruppo di risorse che si desidera ripristinare.
 * Per i comandi di pre-restore, post-restore, mount e unmount, controllare se i comandi esistono nell'elenco dei comandi disponibile sull'host del plug-in dai seguenti percorsi:
 +
-Per Windows: _C: File di programma NetApp, SnapCenter, Snapcenter Plug-in Creator, ecc., allowed_comands_list.txt_
-
-+
-Per Linux: _/var/opt/snapcenter/scc/allowed_comands_list.txt_
-
+** Per Windows: _C:\Program Files\NetApp\SnapCenter\Snapcenter Plug-in Creator\etc\allowed_Commands.config_
+** Per Linux: _/opt/SnapCenter/scc/etc/allowed_Commands.config_
 +
 
 NOTE: Se i comandi non sono presenti nell'elenco dei comandi, l'operazione avrà esito negativo.
+
+
 
 
 

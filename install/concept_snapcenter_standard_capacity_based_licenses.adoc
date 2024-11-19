@@ -139,7 +139,7 @@ NOTE: La licenza di prova (numero di serie che termina con 50) non può essere e
 .Fasi
 . Nel riquadro di navigazione a sinistra, selezionare *Impostazioni*.
 . Nella pagina Impostazioni, selezionare *Software*.
-. Nella sezione License (licenza) della pagina Software, selezionare *Add* (image:../media/add_policy_from_resourcegroup.gif["Un'icona più"]).
+. Nella sezione licenza della pagina Software, selezionare *Aggiungi*.
 . Nella procedura guidata Aggiungi licenza SnapCenter, selezionare uno dei seguenti metodi per ottenere la licenza che si desidera aggiungere:
 +
 |===

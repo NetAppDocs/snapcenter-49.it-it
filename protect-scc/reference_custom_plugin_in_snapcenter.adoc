@@ -203,7 +203,7 @@ consultare le informazioni di riferimento del cmdlet.
 
 
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205["Guida di riferimento al cmdlet del software SnapCenter"^].
+https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html["Guida di riferimento al cmdlet del software SnapCenter"^].
 
 
 
